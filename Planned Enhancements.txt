@@ -1,0 +1,7 @@
+Planned Enhancements:
+1. **Audio Manager**: Integrate Web Audio API or Howler.js for engine hum, gate pass/fail SFX, and ambient space soundtrack.
+2. **Particle Systems**: Add thruster trails behind the ship and burst effects on successful/failed gate navigation.
+3. **Dynamic Difficulty**: Gradually increase plane frequency, reduce gate radius, or add moving decoys as score increases.
+4. **Health/Shield & Game Over**: Implement a 3-life system. Wrong gate = lose life. 0 lives = Game Over screen with restart & high score submission.
+5. **Post-Processing Pipeline**: Add Bloom (emissive gates), Chromatic Aberration (high-speed distortion), and Vignette via `EffectComposer`.
+6. **LocalStorage Leaderboard**: Persist top scores locally and display them on the HUD after runs.
